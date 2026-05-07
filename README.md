@@ -20,6 +20,7 @@
 * **流式输出**：基于 Server-Sent Events (SSE) 实现实时增量返回。
 
 ### 2. Prompt 设计的核心
+![上下文学习资料](docs\context-engineering-practices.md)
 * **结构化注入**：通过上下文构造引导模型行为，非“玄学咒语”。
 * **System Prompt 优先级**：解析模型优先遵循系统指令的机制。
 * **Few-shot 示例**：通过隐式格式约束规范输出，而非直接教学。
